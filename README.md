@@ -1,2 +1,2 @@
-# oxybu-fnac-app-billy
+# oxybul-fnac-app-billy
 Test for Oxybul / Fnac
