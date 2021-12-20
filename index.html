@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/accordion.css">
+    <title>Quizzz</title>
+</head>
+
+<body>
+    <div id="header">
+        <div class="header-parent">
+            <h2 class="title_header">QUIZ - Billy</h2>
+            <span>This is a sort of Quiz project developped by Billy to test his abilities in front using VanillaJS</span>
+        </div>
+    </div>
+    <div class="body-content">
+        <div id="loader">
+            <img src="assets/img/loader-min.gif" class="mini-loader" />
+        </div>
+        <div class="content-menu hide">
+            <div class="question-container">
+                <div id="bars">
+                    <div class="difftext">Difficulty:</div>
+                    <div class="diffbar">
+                        <div id="easy" class="difflvl easy"></div>
+                        <div id="medium" class="difflvl medium"></div>
+                        <div id="hard" class="difflvl hard"></div>
+
+                    </div>
+                </div>
+                <div class="grid-container">
+                    <div class="grid left-grid">
+                        <h3>Category : <b class="category-title">General Knowledge</b></h3>
+                        <div class="grid-content">
+                            <p class="question">
+
+                            </p>
+                        </div>
+                    </div>
+                    <div class="grid right-grid">
+                        <h3>Time left : <b class="time-left">00:00</b></h3>
+                        <div class="grid-content">
+                            <form name="formAnswer" class="answer-container">
+
+                            </form>
+                        </div>
+
+                        <div class="grid-footer flex-end">
+                            <button class="button-primary" id="next">NEXT QUESTION</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="result-container hide">
+                <h3>RESULT: <b class="correct-number"></b></h3>
+                <div class="results"></div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <p>&copy; 2021 ANDRIAMANANA Billy Li</p>
+    </div>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
